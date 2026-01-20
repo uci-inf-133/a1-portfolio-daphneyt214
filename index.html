@@ -19,26 +19,27 @@ EMAIL: daphneyt@uci.edu
 </head>
 
 <body id="daphney-portfolio">
-  <nav>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="gallery.html">Gallery</a></li>
+  <nav class="navbar navbar-expand-sm">
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+      <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+      <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+    </ul>
   </nav>
   <div class="main-page">
     <section class="intro">
-      <header>
-        <h2>helo, i'm</h2>
-        <h1>Daphney Tsai</h1>
+      <header id="intro-title">
+        <h5 id="intro-greet">helo, i'm</h5>
+        <h1 id="intro-name">Daphney Tsai</h1>
       </header>
       
       <div class="container">
-        <div class="row">
+        <div class="row text-center">
           <div class="col-4">
-            <img>
-            <p>hi</p>
+            <img src="assets/seal.png" alt="profile picture">
           </div>
           <div class="col-6">
-            <div class="card" style="width: 18rem;">
+            <div class="card" id="about-card" style="width: fill;">
               <div class="card-body">
                 <h2 class="card-title">ABOUT</h2>
                 <p class="card-text">hello! am 2nd year cs major</p>
@@ -68,17 +69,17 @@ EMAIL: daphneyt@uci.edu
         <div class="row">
           <div class="col-4">
             <h2>Robotics-Media Lead</h2>
-            <img>
+            <img src="assets/seal.png">
             <p>Media lead of 20+ members</p>
           </div>
           <div class="col-4">
             <h2> VGDC - Graphics</h2>
-            <img>
+            <img src="assets/seal.png">
             <p>Help make graphics</p>
           </div>
           <div class="col-4">
             <h2>empty</h2>
-            <img>
+            <img src="assets/seal.png">
             <p>put something here</p>
           </div>
         </div>
@@ -90,11 +91,11 @@ EMAIL: daphneyt@uci.edu
         <h1>PROJECTS</h1>
       </header>
 
-      <div class="card" style="width: 18rem;">
+      <div class="card" style="width: fill">
         <div class="card-body container">
           <div class="row">
-            <div class="col-6">
-              <img>
+            <div class="col-4">
+              <img src="assets/seal.png">
               <p>test</p>
             </div>
             <div class="col-6">
@@ -106,7 +107,7 @@ EMAIL: daphneyt@uci.edu
       </div>
 
       <div>
-        <button>more</button>
+        <button><a href="projects.html">more</a></button>
       </div>
     </section>
 
@@ -114,7 +115,7 @@ EMAIL: daphneyt@uci.edu
       <header>
         <h1>Art Gallery</h1>
       </header>
-      <button>check it out!</button>
+      <button><a href="gallery.html">check it out!</a></button>
     </section>
   </div>
 </body>

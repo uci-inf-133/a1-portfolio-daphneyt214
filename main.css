@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Sour Gummy';
+    src: url(fonts/SourGummy-Regular.ttf) format('ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+section{
+    background-color: aliceblue;
+    color:darkblue;
+    padding: 20px;
+    margin: 10px;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+}
+
+header{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar{
+    background-color: aliceblue;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color:darkblue;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid darkblue;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
+.ntro{
+    border: 0;
+    
+}
+
+#about-card{
+    background-image: url('assets/seal.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    height: 300px;
+    width: 300px;
+}
