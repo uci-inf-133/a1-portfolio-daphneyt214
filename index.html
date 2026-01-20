@@ -10,7 +10,7 @@ EMAIL: daphneyt@uci.edu
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="author" content="Daphney Tsai">
-  <meta name="description" content="description of your page">
+  <meta name="description" content="portfolio main page">
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
   <link rel="stylesheet" href="main.css">
@@ -19,6 +19,11 @@ EMAIL: daphneyt@uci.edu
 </head>
 
 <body id="daphney-portfolio">
+  <nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="projects.html">Projects</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  </nav>
   <div class="main-page">
     <section class="intro">
       <header>
@@ -79,19 +84,24 @@ EMAIL: daphneyt@uci.edu
         </div>
       </div>
     </section>
-    
+
     <section class="projects">
       <header>
         <h1>PROJECTS</h1>
       </header>
 
-      <div>
-        <div>
-          <img>
-        </div>
-        <div>
-          <h2>Underwatertale</h2>
-          <p>underwater lil game</p>
+      <div class="card" style="width: 18rem;">
+        <div class="card-body container">
+          <div class="row">
+            <div class="col-6">
+              <img>
+              <p>test</p>
+            </div>
+            <div class="col-6">
+              <h3 class="card-title">Underwatertale</h3>
+              <p class="card-text">lil underwater game</p>
+            </div>
+          </div>
         </div>
       </div>
 
