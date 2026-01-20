@@ -8,93 +8,103 @@ EMAIL: daphneyt@uci.edu
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="author" content="Daphney Tsai">
   <meta name="description" content="description of your page">
    <!-- you would link to an external stylesheet here! -->
    <!-- you would also link to Bootstrap here! -->
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
    <title>daphney tsai's portfolio</title>
 </head>
 
 <body id="daphney-portfolio">
   <div class="main-page">
     <section class="intro">
-      <header role="name">
+      <header>
         <h2>helo, i'm</h2>
         <h1>Daphney Tsai</h1>
       </header>
-
-      <div class="about">
-        <header role="about-title">
-          <h2>ABOUT</h2>
-          <p>hello! am 2nd year cs major</p>
-        </header>
-      </div>
-
-      <div class="about-pict">
-        <img>
+      
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <img>
+            <p>hi</p>
+          </div>
+          <div class="col-6">
+            <div class="card" style="width: 18rem;">
+              <div class="card-body">
+                <h2 class="card-title">ABOUT</h2>
+                <p class="card-text">hello! am 2nd year cs major</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
+
     <section class="tools">
-      <header role="tools-title">
+      <header>
         <h1>TOOLS</h1>
       </header>
 
-      <div class="tool-list">
+      <div>
 
       </div>
     </section>
+
     <section class="experience">
-      <div class="robotics">
-        <header role="robotics-title">
-          <h2>Robotics-Media Lead</h2>
-        </header>  
-        <img>
-        <p>Media lead of 20+ members</p>
-      </div>
-      
-      <div class="vgdc">
-        <header role="vgdc-title">
-          <h2> VGDC - Graphics</h2>
-        </header>
-        <img>
-        <p>Help make graphics</p>
-      </div>
+      <header>
+        <h1>Experience</h1>
+      </header>
 
-      <div class="empty">
-        <header role="empty-title">
-          <h2>empty</h2>
-        </header>
-        <img>
-        <p>put something here</p>
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <h2>Robotics-Media Lead</h2>
+            <img>
+            <p>Media lead of 20+ members</p>
+          </div>
+          <div class="col-4">
+            <h2> VGDC - Graphics</h2>
+            <img>
+            <p>Help make graphics</p>
+          </div>
+          <div class="col-4">
+            <h2>empty</h2>
+            <img>
+            <p>put something here</p>
+          </div>
+        </div>
       </div>
     </section>
+    
     <section class="projects">
-      <div class="projects-title">
+      <header>
         <h1>PROJECTS</h1>
-      </div>
+      </header>
 
-      <div class="project-card">
+      <div>
         <div>
           <img>
         </div>
         <div>
-          <header>
-            <h2>Underwatertale</h2>
-          </header>
+          <h2>Underwatertale</h2>
           <p>underwater lil game</p>
         </div>
       </div>
 
-      <div class="projects-more">
+      <div>
         <button>more</button>
       </div>
     </section>
+
     <section class="art">
-      <div>
+      <header>
         <h1>Art Gallery</h1>
-        <button>check it out!</button>
-      </div>
+      </header>
+      <button>check it out!</button>
     </section>
   </div>
 </body>
