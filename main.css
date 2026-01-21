@@ -24,6 +24,20 @@ header{
     text-align: center;
 }
 
+ul {
+    list-style-position: inside;
+    text-align: left;
+}
+
+img {
+    border-radius: 10px;
+}
+
+a:-webkit-any-link {
+    text-decoration: none;
+    color: inherit;
+}
+
 .navbar{
     background-color: #fefade;
     padding: 20px;
@@ -107,3 +121,46 @@ header{
     padding-left: 0;
     padding-right: 0;
 }
+
+#underwatertale{
+   border: 5px solid #d19ca3;
+   background-color: #f6c9c9;
+   color:#8c565d;
+   padding: 20px;
+   margin: 20px;
+   border-radius: 10px;
+
+   text-align: left;
+}
+
+.rounded-button{
+    justify-self: center;
+    border: 5px solid #69b279;
+    background-color: #b2d6ab;
+    border-radius: 50px;
+    color:#235c2f;
+    padding: 2px;
+    width: fit-content;
+}
+
+#witch{
+    border: 5px solid #887aaa;
+    background-color: #c8bfdc;
+    color:#352a4f;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+ 
+    text-align: left;
+}
+
+#ava{
+    border: 5px solid #2a170e;
+    background-color: #9b8174;
+    color:#2a170e;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+ 
+    text-align: left;
+ }
