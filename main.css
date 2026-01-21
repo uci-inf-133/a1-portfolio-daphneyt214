@@ -1,10 +1,18 @@
+body {
+    font-family: 'Gaegu', monospace!important;
+}
+
 section{
-    background-color: aliceblue;
-    color:darkblue;
+    background-color: #edf8fc;
+    color: #50758c;
     padding: 20px;
     margin: 10px;
-    border: 2px solid darkblue;
-    border-radius: 5px;
+    border: 5px solid #9ad3ea;
+    border-radius: 10px;
+}
+
+p {
+    font-size: 20px;
 }
 
 .container {
@@ -14,35 +22,88 @@ section{
 
 header{
     text-align: center;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 .navbar{
-    background-color: aliceblue;
+    background-color: #fefade;
     padding: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
     color:darkblue;
-    font-family: 'Courier New', Courier, monospace;
-    border: 2px solid darkblue;
+    border: 5px solid #f4e5b1;
+    border-top: 0;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
 }
 
-
+.main-page{
+    margin: 20px;
+}
 .intro{
+    padding-top: 40px;
     border: 0;
 }
 
 #intro-title{
-    font-family: 'Sour Gummy', monospace;
+    font-family: 'Gaegu', monospace;
+    font-weight: 700;
 }
 
-#about-card{
-    background-image: url('assets/seal.png');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+#intro-greet{
+    line-height: 0;
+}
 
-    /* width: 100%; */
+#intro-name{
+    font-size: 6rem;
+    line-height: 1;
+}
+
+.exp-card{
+    background-color:cornsilk;
+    color:peru;
+    padding: 10px;
+    margin: 5px;
+    border: 8px solid burlywood;
+    border-radius: 20px;
+}
+
+.about-cont {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+#about-card {
+    background-image: url('assets/about_card.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+
+    height: 500px;
+    width: 625px;
+
+    font-family: 'Gaegu', monospace;
+}
+
+.about-img {
+    text-align: right;
+}
+
+.about-text {
+    font-family: 'Single Day', cursive;
+}
+
+.about-desc {
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.tool-img {
+    aspect-ratio: 1;
+    width: 50%;
+}
+
+.tool-row {
+    padding-left: 0;
+    padding-right: 0;
 }

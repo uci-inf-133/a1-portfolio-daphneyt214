@@ -17,7 +17,7 @@ EMAIL: daphneyt@uci.edu
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@300;400;700&family=Single+Day&display=swap" rel="stylesheet">
    <title>daphney tsai's portfolio</title>
 </head>
 
@@ -32,52 +32,62 @@ EMAIL: daphneyt@uci.edu
   <div class="main-page">
     <section class="intro">
       <header id="intro-title">
-        <h5 id="intro-greet">helo, i'm</h5>
-        <h1 id="intro-name">Daphney Tsai</h1>
+        <h2 id="intro-greet">helo, i'm</h2>
+        <h2 id="intro-name">Daphney Tsai</h2>
       </header>
       
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-5">
-            <img src="assets/seal.png" alt="profile picture">
+      <div class="container" style="max-width: 1000px;">
+        <div class="row no-gutters">
+          <div class="col-lg-4 " id="about-img">
+            <img src="assets/about-pfp.png" alt="profile picture">
           </div>
-          <div class="col-lg-5" id="about-card">
-              <h2>ABOUT</h2>
-              <p>hello! am 2nd year cs major</p>
-              <img src="assets/seal.png" alt="profile picture" style="visibility: hidden;">
-              
+          <div class="col-lg-8 mx-auto" id="about-card">
+              <div class="about-desc">
+                <h1 id="about-title">ABOUT</h1>
+                <p id="about-text">hello! i am a 2nd year cs major at UCI!
+                  welcome, i make trinkets, comics, art, animation, 
+                  any creative projects i am fixated on :p 
+                </p>
+              </div>
           </div>
         </div>
       </div>
     </section>
 
     <section class="tools">
-      <header>
-        <h1>TOOLS</h1>
+      <header id="tools-title">
+        <h1>LANGUAGES & TOOLS</h1>
       </header>
-      <div>
-        <p>add images later</p>
+      <div class="container">
+        <div class="row">
+          <div class="col"><img class="tool-img" src="assets/java.png" alt="java logo"><p>java</p></div>
+          <div class="col"><img class="tool-img" src="assets/python.png" alt="python logo"><p>python</p></div>
+          <div class="col"><img class="tool-img" src="assets/c++.png" alt="c++ logo"><p>c++</p></div>
+          <div class="col"><img class="tool-img" src="assets/vs_code.png" alt="visual studio code logo"><p>vs code</p></div>
+          <div class="col"><img class="tool-img" src="assets/figma.png" alt="figma logo"><p>figma</p></div>
+          <div class="col"><img class="tool-img" src="assets/blender.png" alt="blender logo"><p>blender</p></div>
+        </div>
       </div>
     </section>
 
     <section class="experience">
       <header>
-        <h1>Experience</h1>
+        <h1>EXPERIENCE</h1>
       </header>
 
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <h2>Robotics-Media Lead</h2>
+          <div class="col-lg exp-card">
+            <h2>Robotics - Media Lead</h2>
             <img src="assets/seal.png">
             <p>Media lead of 20+ members</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg exp-card">
             <h2> VGDC - Graphics</h2>
             <img src="assets/seal.png">
             <p>Help make graphics</p>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg exp-card">
             <h2>empty</h2>
             <img src="assets/seal.png">
             <p>put something here</p>
@@ -113,7 +123,7 @@ EMAIL: daphneyt@uci.edu
 
     <section class="art">
       <header>
-        <h1>Art Gallery</h1>
+        <h1>ART GALLERY</h1>
       </header>
       <div class="container">
         <button><a href="gallery.html">check it out!</a></button>
